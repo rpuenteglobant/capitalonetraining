@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smoke_users"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.771">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createUser"
+                time="0.493"
+                classname="TestTwo">
+            </testcase>
+            <testcase
+                name="deleteUser"
+                time="0.560"
+                classname="TestTwo">
+            </testcase>
+            <testcase
+                name="updateUser"
+                time="0.489"
+                classname="TestTwo">
+            </testcase>
+            <testcase
+                name="getUserList"
+                time="0.244"
+                classname="TestTwo">
+            </testcase>
+            <testcase
+                name="getSingleUser"
+                time="0.528"
+                classname="TestTwo">
+            </testcase>
+            <testcase
+                name="getUser"
+                time="0.234"
+                classname="TestTwo">
+            </testcase>
+            <testcase
+                name="testGetUser"
+                time="0.223"
+                classname="TestTwo">
+            </testcase>
+</testsuite>

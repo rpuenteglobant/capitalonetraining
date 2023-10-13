@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smoke_login"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.952">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testLoginSuccess"
+                time="0.457"
+                classname="TestOne">
+            </testcase>
+            <testcase
+                name="testBadRequest"
+                time="1.495"
+                classname="TestOne">
+            </testcase>
+</testsuite>

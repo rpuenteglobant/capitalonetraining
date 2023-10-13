@@ -1,0 +1,10 @@
+{
+  "create": {
+    "name": "morpheus",
+    "job": "leader"
+  },
+  "update": {
+    "name": "morpheus",
+    "job": "zion resident"
+  }
+}

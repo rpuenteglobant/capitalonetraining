@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.938" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/target/test-classes:/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/target/classes:/Users/ricardo.puente/.m2/repository/io/rest-assured/rest-assured/5.3.2/rest-assured-5.3.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/ricardo.puente/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/ricardo.puente/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ricardo.puente/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ricardo.puente/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ricardo.puente/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ricardo.puente/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ricardo.puente/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/ricardo.puente/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/json-path/5.3.2/json-path-5.3.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/rest-assured-common/5.3.2/rest-assured-common-5.3.2.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/xml-path/5.3.2/xml-path-5.3.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ricardo.puente/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ricardo.puente/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ricardo.puente/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/json-schema-validator/5.3.2/json-schema-validator-5.3.2.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/ricardo.puente/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/ricardo.puente/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/ricardo.puente/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/ricardo.puente/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/ricardo.puente/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/ricardo.puente/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/ricardo.puente/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/ricardo.puente/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/ricardo.puente/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/ricardo.puente/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ricardo.puente/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ricardo.puente/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/ricardo.puente/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/ricardo.puente/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/ricardo.puente/.m2/repository/org/testng/testng/7.5.1/testng-7.5.1.jar:/Users/ricardo.puente/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/ricardo.puente/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ricardo.puente/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/ricardo.puente/.m2/repository/org/testng/reportng/1.2.2/reportng-1.2.2.jar:/Users/ricardo.puente/.m2/repository/org/freemarker/freemarker/2.3.28/freemarker-2.3.28.jar:/Users/ricardo.puente/.m2/repository/com/google/inject/guice/4.2.0/guice-4.2.0.jar:/Users/ricardo.puente/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ricardo.puente/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/3.1.2/maven-surefire-report-plugin-3.1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/surefire/surefire-report-parser/3.1.2/surefire-report-parser-3.1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.1.2/surefire-logger-api-3.1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar:/Users/ricardo.puente/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-container-default/2.1.0/plexus-container-default-2.1.0.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/Users/ricardo.puente/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/3.2.0/maven-reporting-impl-3.2.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/ricardo.puente/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/ricardo.puente/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar:/Users/ricardo.puente/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/ricardo.puente/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/ricardo.puente/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar:/Users/ricardo.puente/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar:/Users/ricardo.puente/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/ricardo.puente/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/target/surefire/surefirebooter-20231013160536169_3.jar /Users/ricardo.puente/IdeaProjects/training/capitalonetraining/target/surefire 2023-10-13T16-05-35_642-jvmRun1 surefire-20231013160536169_1tmp surefire_0-20231013160536169_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/target/test-classes:/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/target/classes:/Users/ricardo.puente/.m2/repository/io/rest-assured/rest-assured/5.3.2/rest-assured-5.3.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/ricardo.puente/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/ricardo.puente/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ricardo.puente/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ricardo.puente/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ricardo.puente/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ricardo.puente/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ricardo.puente/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/ricardo.puente/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/json-path/5.3.2/json-path-5.3.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/rest-assured-common/5.3.2/rest-assured-common-5.3.2.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/xml-path/5.3.2/xml-path-5.3.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ricardo.puente/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ricardo.puente/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ricardo.puente/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ricardo.puente/.m2/repository/io/rest-assured/json-schema-validator/5.3.2/json-schema-validator-5.3.2.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/ricardo.puente/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/ricardo.puente/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/ricardo.puente/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/ricardo.puente/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/ricardo.puente/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/ricardo.puente/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/ricardo.puente/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/ricardo.puente/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/ricardo.puente/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/ricardo.puente/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/ricardo.puente/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ricardo.puente/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ricardo.puente/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/ricardo.puente/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/ricardo.puente/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/ricardo.puente/.m2/repository/org/testng/testng/7.5.1/testng-7.5.1.jar:/Users/ricardo.puente/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/ricardo.puente/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ricardo.puente/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/ricardo.puente/.m2/repository/org/testng/reportng/1.2.2/reportng-1.2.2.jar:/Users/ricardo.puente/.m2/repository/org/freemarker/freemarker/2.3.28/freemarker-2.3.28.jar:/Users/ricardo.puente/.m2/repository/com/google/inject/guice/4.2.0/guice-4.2.0.jar:/Users/ricardo.puente/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ricardo.puente/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/3.1.2/maven-surefire-report-plugin-3.1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/surefire/surefire-report-parser/3.1.2/surefire-report-parser-3.1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.1.2/surefire-logger-api-3.1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar:/Users/ricardo.puente/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-core/1.11.1/doxia-core-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-container-default/2.1.0/plexus-container-default-2.1.0.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/Users/ricardo.puente/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.1.1/maven-reporting-api-3.1.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/3.2.0/maven-reporting-impl-3.2.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.11.1/doxia-decoration-model-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-integration-tools/1.11.1/doxia-integration-tools-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar:/Users/ricardo.puente/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar:/Users/ricardo.puente/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/ricardo.puente/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/ricardo.puente/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar:/Users/ricardo.puente/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/ricardo.puente/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/ricardo.puente/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar:/Users/ricardo.puente/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar:/Users/ricardo.puente/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/ricardo.puente/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ricardo.puente"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/21/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ricardo.puente/IdeaProjects/training/capitalonetraining"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/target/surefire/surefirebooter-20231013160536169_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21"/>
+    <property name="user.name" value="ricardo.puente"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ricardo.puente/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/wn/1ch7b3tj6539ppnccm_67srh0000gr/T/"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="/Users/ricardo.puente/IdeaProjects/training/capitalonetraining"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ricardo.puente/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testBadRequest" classname="TestOne" time="1.616">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/src/test/runners/SuiteByClasses.xml] otherwise TestNG may fail or not work as expected.
+Initial configuration....
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "cityslicka",
+    "email": "eve.holt@reqr"
+}
+HTTP/1.1 400 Bad Request
+Date: Fri, 13 Oct 2023 22:05:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7l%2BmAsdUwuI5CdehB4hatEu8vMt4qX9fCIfVpgxv59pUV3jql5lWavdZa8qnwQ31RmfEtQgL2dsvYPhMUe5Y72LwFEgsl448GU5l9k9ZEqJamkWiLZYw%2FicnmQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 815ae29aefcbaa64-DFW
+
+{
+    "error": "user not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginSuccess" classname="TestOne" time="0.55">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "cityslicka",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Fri, 13 Oct 2023 22:05:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5Gf9iXL%2F0%2FgF4CUUomhvLpU9oJqCsiRF5ucQkSdQpQa9wU%2BmYvRqYss32YZ4TIDaso4v6Lf2YSxnK1rLfaLchc4VX5opYPgocl2Se2RhshbIO13lWCoxmRYzuQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 815ae29edd4c4690-DFW
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUser" classname="TestTwo" time="0.492">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Fri, 13 Oct 2023 22:05:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-/L4A2tx5Iyozfv9QP+c9UAUUdfw"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BUBmzIdfxG5LZkIJBYUf9pCDr8iOaPTu7wA3fcwp6qJK7U5i%2FBI%2FYJ%2BTLiNKsMGcp2WjrYoiGK844RsMyO%2BoLxAfgqkc4WGd3%2BsHX1wW3B93KZy0O9j%2FjEmKDg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 815ae2a258210b82-DFW
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "137",
+    "createdAt": "2023-10-13T22:05:39.773Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser" classname="TestTwo" time="0.559">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 13 Oct 2023 22:05:40 GMT
+Content-Length: 0
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697234740&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FWZOlQxVo2tc8l6Zw86N8Y3HpZNW3wQmrlHh3LHrJZM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697234740&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FWZOlQxVo2tc8l6Zw86N8Y3HpZNW3wQmrlHh3LHrJZM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 815ae2a58ce2463c-DFW
+]]></system-out>
+  </testcase>
+  <testcase name="getSingleUser" classname="TestTwo" time="0.528">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/unknown/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Oct 2023 22:05:40 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"e8-ov4wWh4/OY1IMQMqWgskYtOFnVs"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 3309
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Fk0j8kMXIC4sqht8ym6%2BJdqUkP9tO%2FJbOSv3ggYjJhTafhYkAOh28T9C4A%2F3tyH5j6DUOiI3h8fjCG%2BkiZa41HFtQ2awHQ0Xvk9L38gZcu50Ckrki%2FPf72i%2BLA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 815ae2a8dabee92a-DFW
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
+        "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+        "pantone_value": "17-2031"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUser" classname="TestTwo" time="0.234">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Oct 2023 22:05:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 6940
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ILQ9rEmbmohsZ%2FLNxYLre%2Bj6c0P7Sy%2BcwNYdaX9XSBITWgIQISay328XTNw1H23RwlZ1S4OCCtF2beA1k%2FUgUgf%2BjtuMx0ciG5q9CJEAyDBAvBDk2zfT3bz71A%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 815ae2ac48782c86-DFW
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserList" classname="TestTwo" time="0.246">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/unknown
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Oct 2023 22:05:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697052254&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UiDyAtu9iTwhpRVu6ShtBeUU522QfybvJix5CTF598g%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697052254&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UiDyAtu9iTwhpRVu6ShtBeUU522QfybvJix5CTF598g%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 2658
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 815ae2adbaece78e-DFW
+Content-Encoding: gzip
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "name": "cerulean",
+            "year": 2000,
+            "color": "#98B2D1",
+            "pantone_value": "15-4020"
+        },
+        {
+            "id": 2,
+            "name": "fuchsia rose",
+            "year": 2001,
+            "color": "#C74375",
+            "pantone_value": "17-2031"
+        },
+        {
+            "id": 3,
+            "name": "true red",
+            "year": 2002,
+            "color": "#BF1932",
+            "pantone_value": "19-1664"
+        },
+        {
+            "id": 4,
+            "name": "aqua sky",
+            "year": 2003,
+            "color": "#7BC4C4",
+            "pantone_value": "14-4811"
+        },
+        {
+            "id": 5,
+            "name": "tigerlily",
+            "year": 2004,
+            "color": "#E2583E",
+            "pantone_value": "17-1456"
+        },
+        {
+            "id": 6,
+            "name": "blue turquoise",
+            "year": 2005,
+            "color": "#53B0AE",
+            "pantone_value": "15-5217"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="TestTwo" time="0.221">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users?id=2
+Proxy:			<none>
+Request params:	id=2
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Oct 2023 22:05:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 3308
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=i4L9AZ%2FbWdanMsXdxSpTOCevd%2BnA6Vd2E3EYuGXeOXxe92Js1sCt9B17dR%2FihmhUqVVNavXx4zDQovxA0En3B1o7E7qrI1x4CILrCl9JRtf1%2F8HH9eDnmaEjhw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 815ae2af4d56e7df-DFW
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+io.restassured.internal.RestAssuredResponseImpl@285583d4
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser" classname="TestTwo" time="0.49">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+HTTP/1.1 200 OK
+Date: Fri, 13 Oct 2023 22:05:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-oP0pIqT1xAr05oadR+ykawTDAn0"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Iascp6NUIfH0MI7sj92jJyXIVUVDyn5Pde5P%2BnKE0nhAOQNwtRzg9vKf5nuRHaFrGExzxbm7L9NJty9uInSmAGw7JrJPKxPAXVsp872Zu8X6V8KUyATSueVqkw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 815ae2b0cda0475b-DFW
+Content-Encoding: gzip
+
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2023-10-13T22:05:42.075Z"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

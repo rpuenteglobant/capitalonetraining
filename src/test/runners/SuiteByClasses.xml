@@ -1,0 +1,28 @@
+<suite name="SuiteReqRes" verbose="1">
+    <test name="setup">
+        <classes>
+            <class name="Hooks.Hooks"/>
+        </classes>
+    </test>
+    <test name="smoke_login">
+        <groups>
+            <run>
+                <inlcude name="login"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestOne" />
+        </classes>
+    </test>
+
+    <test name="smoke_users">
+        <groups>
+            <run>
+                <inlcude name="manageUsers"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestTwo"/>
+        </classes>
+    </test>
+</suite>

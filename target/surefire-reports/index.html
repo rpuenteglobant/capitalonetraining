@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SuiteReqRes" class="navigator-link">
+              <span class="suite-name border-passed">SuiteReqRes</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SuiteReqRes" class="navigator-link ">
+                    <span>SuiteByClasses.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SuiteReqRes" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SuiteReqRes" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SuiteReqRes" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SuiteReqRes" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SuiteReqRes" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SuiteReqRes" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteReqRes" class="hide-methods passed suite-SuiteReqRes"> (hide)</a> <!-- hide-methods passed suite-SuiteReqRes -->
+                      <a href="#" panel-name="suite-SuiteReqRes" class="show-methods passed suite-SuiteReqRes"> (show)</a> <!-- show-methods passed suite-SuiteReqRes -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteReqRes">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestTwo" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestTwo" class="method navigator-link" hash-for-method="deleteUser">deleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestTwo" class="method navigator-link" hash-for-method="getSingleUser">getSingleUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestTwo" class="method navigator-link" hash-for-method="getUser">getUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestTwo" class="method navigator-link" hash-for-method="getUserList">getUserList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestOne" class="method navigator-link" hash-for-method="testBadRequest">testBadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestTwo" class="method navigator-link" hash-for-method="testGetUser">testGetUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestOne" class="method navigator-link" hash-for-method="testLoginSuccess">testLoginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteReqRes" title="TestTwo" class="method navigator-link" hash-for-method="updateUser">updateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteReqRes -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteReqRes" class="panel SuiteReqRes">
+          <div class="suite-SuiteReqRes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestTwo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser">
+                  </a> <!-- createUser -->
+                  <span class="method-name">createUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser">
+                  </a> <!-- deleteUser -->
+                  <span class="method-name">deleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSingleUser">
+                  </a> <!-- getSingleUser -->
+                  <span class="method-name">getSingleUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser">
+                  </a> <!-- getUser -->
+                  <span class="method-name">getUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserList">
+                  </a> <!-- getUserList -->
+                  <span class="method-name">getUserList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUser">
+                  </a> <!-- testGetUser -->
+                  <span class="method-name">testGetUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser">
+                  </a> <!-- updateUser -->
+                  <span class="method-name">updateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteReqRes-class-passed -->
+          <div class="suite-SuiteReqRes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBadRequest">
+                  </a> <!-- testBadRequest -->
+                  <span class="method-name">testBadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginSuccess">
+                  </a> <!-- testLoginSuccess -->
+                  <span class="method-name">testLoginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteReqRes-class-passed -->
+        </div> <!-- panel SuiteReqRes -->
+        <div panel-name="test-xml-SuiteReqRes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ricardo.puente/IdeaProjects/training/capitalonetraining/src/test/runners/SuiteByClasses.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteReqRes&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;setup&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Hooks.Hooks&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- setup --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;smoke_login&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestOne&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- smoke_login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;smoke_users&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestTwo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- smoke_users --&gt;
+&lt;/suite&gt; &lt;!-- SuiteReqRes --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteReqRes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteReqRes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">setup (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">smoke_login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">smoke_users (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteReqRes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteReqRes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBadRequest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginSuccess</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">manageUsers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getSingleUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getUserList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteReqRes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteReqRes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteReqRes');
+function tableData_SuiteReqRes() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testBadRequest')
+data.setCell(0, 2, 'TestOne')
+data.setCell(0, 3, 1616);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deleteUser')
+data.setCell(1, 2, 'TestTwo')
+data.setCell(1, 3, 560);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginSuccess')
+data.setCell(2, 2, 'TestOne')
+data.setCell(2, 3, 552);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getSingleUser')
+data.setCell(3, 2, 'TestTwo')
+data.setCell(3, 3, 528);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUser')
+data.setCell(4, 2, 'TestTwo')
+data.setCell(4, 3, 493);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'updateUser')
+data.setCell(5, 2, 'TestTwo')
+data.setCell(5, 3, 489);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getUserList')
+data.setCell(6, 2, 'TestTwo')
+data.setCell(6, 3, 244);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getUser')
+data.setCell(7, 2, 'TestTwo')
+data.setCell(7, 3, 234);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetUser')
+data.setCell(8, 2, 'TestTwo')
+data.setCell(8, 3, 223);
+window.suiteTableData['SuiteReqRes']= { tableData: data, tableDiv: 'times-div-SuiteReqRes'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-SuiteReqRes">
+              </div> <!-- times-div-SuiteReqRes -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteReqRes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteReqRes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteReqRes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteReqRes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Hooks.Hooks</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuiteSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestOne</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">350 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testBadRequest</span>
+                <span class="method-start">360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginSuccess</span>
+                <span class="method-start">1978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestTwo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2547 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createUser</span>
+                <span class="method-start">2550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser</span>
+                <span class="method-start">3043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSingleUser</span>
+                <span class="method-start">3603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUser</span>
+                <span class="method-start">4132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserList</span>
+                <span class="method-start">4366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUser</span>
+                <span class="method-start">4610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUser</span>
+                <span class="method-start">4834 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
